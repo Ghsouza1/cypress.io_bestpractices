@@ -1,0 +1,9 @@
+{
+    "baseUrl": "http://automationpractice.com/index.php",
+    "PageLoadTimeout" : 40000,
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "theme": "dark",
+    "chromeWebSecurity": false,
+    "screenshotsFolder": "TestReport/assets"
+  }

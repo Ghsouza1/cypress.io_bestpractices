@@ -1,0 +1,109 @@
+{
+  "uid" : "190b5bbb4df761e2",
+  "name" : "Load the instapage",
+  "fullName" : "Load the instapage",
+  "historyId" : "8a79d6cddb6fb1eca250245640d4684b",
+  "time" : {
+    "start" : 1606749386602,
+    "stop" : 1606749395715,
+    "duration" : 9113
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"/\")",
+      "time" : {
+        "start" : 1606749386636,
+        "stop" : 1606749388853,
+        "duration" : 2217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://api.segment.io/v1/p",
+      "time" : {
+        "start" : 1606749388852,
+        "stop" : 1606749388852,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "server (\"[object Object]\")",
+      "time" : {
+        "start" : 1606749388853,
+        "stop" : 1606749388855,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "screenshot (\"Instapage - Website\")",
+      "time" : {
+        "start" : 1606749388855,
+        "stop" : 1606749395714,
+        "duration" : 6859
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "7dfd069c35327e93",
+      "name" : "specs/instapeg_spec.js:2020-11-30T15:16:32.822Z",
+      "source" : "7dfd069c35327e93.png",
+      "type" : "image/png",
+      "size" : 798734
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Instapage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "190b5bbb4df761e2.json",
+  "parameterValues" : [ ]
+}

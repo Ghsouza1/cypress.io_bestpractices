@@ -1,0 +1,229 @@
+{
+  "uid" : "e99bb16dd44b6c5a",
+  "name" : "Login",
+  "fullName" : "Login",
+  "historyId" : "a5777c9a99e6115f11f5025fac9acd87",
+  "time" : {
+    "start" : 1607035410126,
+    "stop" : 1607035414813,
+    "duration" : 4687
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get (\".navbar-login-options > .list-option > a\")",
+      "time" : {
+        "start" : 1607035410168,
+        "stop" : 1607035410191,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1607035410191,
+        "stop" : 1607035410408,
+        "duration" : 217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1607035410408,
+        "stop" : 1607035410408,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "screenshot (\"Intapage - Login\")",
+      "time" : {
+        "start" : 1607035410408,
+        "stop" : 1607035414812,
+        "duration" : 4404
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j87&a=338887274&t=pageview&_s=1&dl=https://instapage.com/&ul=en-us&de=UTF-8&dt=Instapage - The World’s Most Advanced Landing Page Platform&sd=24-bit&sr=1280x800&vp=1905x1080&je=0&_u=aHDAAEADQAAAAG~&jid=768147359&gjid=2108945163&cid=1435730785.1607035410&tid=UA-146433090-1&_gid=1955593506.1607035410&_r=1&gtm=2wgb41KWK22KP&z=968414717",
+      "time" : {
+        "start" : 1607035414810,
+        "stop" : 1607035414810,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j87&tid=UA-146433090-1&cid=1435730785.1607035410&jid=768147359&gjid=2108945163&_gid=1955593506.1607035410&_u=aHDAAEADQAAAAG~&z=1239693363",
+      "time" : {
+        "start" : 1607035414810,
+        "stop" : 1607035414810,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://grsm.io/pr/gpk/pk_Cu92v9NTGbeHutetw0opO9t9s6Facbxn",
+      "time" : {
+        "start" : 1607035414811,
+        "stop" : 1607035414811,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "https://app.instapage.com/auth/login new url",
+      "time" : {
+        "start" : 1607035414811,
+        "stop" : 1607035414811,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://ampcid.google.com/v1/publisher:getClientId?key=AIzaSyA65lEHUEizIsNtlbNo-l2K18dT680nsaM",
+      "time" : {
+        "start" : 1607035414811,
+        "stop" : 1607035414811,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://ampcid.google.com.br/v1/publisher:getClientId?key=AIzaSyA65lEHUEizIsNtlbNo-l2K18dT680nsaM",
+      "time" : {
+        "start" : 1607035414812,
+        "stop" : 1607035414812,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://934-wvr-818.mktoresp.com/webevents/visitWebPage?_mchNc=1607035414067&_mchCn=&_mchId=934-WVR-818&_mchTk=_mch-instapage.com-1607035414066-47033&_mchHo=app.instapage.com&_mchPo=&_mchRu=/auth/login&_mchPc=https:&_mchVr=159&_mchEcid=&_mchHa=&_mchRe=https://instapage.com/&_mchQp=",
+      "time" : {
+        "start" : 1607035414812,
+        "stop" : 1607035414812,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Intapage - Login screenshot",
+      "time" : {
+        "start" : 1607035414812,
+        "stop" : 1607035414812,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c2a889736c8c7fb5",
+      "name" : "specs/instapeg_spec.js:2020-12-03T22:43:34.120Z",
+      "source" : "c2a889736c8c7fb5.png",
+      "type" : "image/png",
+      "size" : 345018
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Instapage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e99bb16dd44b6c5a.json",
+  "parameterValues" : [ ]
+}

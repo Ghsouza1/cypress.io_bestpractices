@@ -1,0 +1,35 @@
+{
+  "uid" : "d9df49482fc968b3",
+  "name" : "Landing Page - Create Pagegin",
+  "fullName" : "Landing Page - Create Pagegin",
+  "historyId" : "070f8a908652e9ceb37d9d3301fa7411",
+  "time" : {
+    "start" : 1606749401248,
+    "stop" : 1606749401398,
+    "duration" : 150
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Instapage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9df49482fc968b3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,81 @@
+[ {
+  "uid" : "45520bb172f94ac4",
+  "name" : "click on sign in button",
+  "time" : {
+    "start" : 1607361927680,
+    "stop" : 1607361929827,
+    "duration" : 2147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "935b308c40c9259c",
+  "name" : "sign in",
+  "time" : {
+    "start" : 1607361931640,
+    "stop" : 1607361934210,
+    "duration" : 2570
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9df49482fc968b3",
+  "name" : "Landing Page - Create Pagegin",
+  "time" : {
+    "start" : 1606749401248,
+    "stop" : 1606749401398,
+    "duration" : 150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "681bc66759e2b2cf",
+  "name" : "warning message",
+  "time" : {
+    "start" : 1607361929872,
+    "stop" : 1607361931626,
+    "duration" : 1754
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4776db02fa5f6d90",
+  "name" : "load the website",
+  "time" : {
+    "start" : 1607361922675,
+    "stop" : 1607361927670,
+    "duration" : 4995
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90229d578f956b24",
+  "name" : "Load the instapage",
+  "time" : {
+    "start" : 1607035525145,
+    "stop" : 1607035534163,
+    "duration" : 9018
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63f922f80d7d8601",
+  "name" : "Landing Page - Publish Experience",
+  "time" : {
+    "start" : 1606749401401,
+    "stop" : 1606749401419,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e7eaca6131461df",
+  "name" : "Login",
+  "time" : {
+    "start" : 1607035534184,
+    "stop" : 1607035539397,
+    "duration" : 5213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,20 @@
+{
+  "name": "cypress-best_practices",
+  "version": "1.0.0",
+  "description": "Cypress.io: Best practices of automation in Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "npx cypress run --config video=false --env allure=true",
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:open": "allure open allure-report",
+    "allure:clear": "rm -r allure-results/ allure-report || true",
+    "test": "npx npm-run-all allure:clear cy:run allure:generate"
+  },
+  "author": "Gustavo Souza",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^1.8.5",
+    "cypress": "^4.6.0",
+    "cypress-dark": "^1.7.14"
+  }
+}
