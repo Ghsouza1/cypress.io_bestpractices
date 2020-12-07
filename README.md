@@ -4,12 +4,14 @@ cypress.io: Best practices of automation in Cypress
 
 ## Contents:
 ```
-> Best Practices.
-> Chaining Assertions.
-> Global baseurl setup.
-> Page Object Model.
-> Reusable functions.
-> Constants.
+> Best Practices trhough examples.
+
+> Main topics:
+- Chaining Assertions.
+- Global baseurl setup.
+- Page Object Model.
+- Reusable functions.
+- Constants.
 ```
 
 ## Steps:
