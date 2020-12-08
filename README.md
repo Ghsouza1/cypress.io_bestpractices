@@ -19,7 +19,7 @@ cypress.io: Best practices of automation in Cypress
 ```
 > clone: git clone https://github.com/Ghsouza1/cypress.io_bestpractices.git
 > cd cypress.io_bestpractices
-> npm run cy:run \n
+> npm run cy:run
 ```
 
 ## References:
