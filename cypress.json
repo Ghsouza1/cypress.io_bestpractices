@@ -5,5 +5,5 @@
     "viewportHeight": 1080,
     "theme": "dark",
     "chromeWebSecurity": false,
-    "screenshotsFolder": "TestReport/assets"
+    "video": false
   }

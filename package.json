@@ -8,13 +8,16 @@
     "allure:generate": "allure generate allure-results --clean",
     "allure:open": "allure open allure-report",
     "allure:clear": "rm -r allure-results/ allure-report || true",
-    "test": "npx npm-run-all allure:clear cy:run allure:generate"
+    "test": "npx npm-run-all allure:clear cy:run allure:generate",
+    "cy:mocha": "npx cypress run --reporter mochawesome",
+    "cy:report": "generate-mochawesome-report"
   },
   "author": "Gustavo Souza",
   "license": "ISC",
   "devDependencies": {
     "@shelex/cypress-allure-plugin": "^1.8.5",
-    "cypress": "^4.6.0",
-    "cypress-dark": "^1.7.14"
+    "cypress": "^6.6.0",
+    "cypress-dark": "^1.7.14",
+    "cypress-mochawesome-reporter": "^1.3.0"
   }
 }
