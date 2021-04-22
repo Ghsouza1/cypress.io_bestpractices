@@ -11,9 +11,11 @@ export const credentials = {
     password: "user_testpsw",
 }
 
+/*
 Cypress.Screenshot.defaults({
     screenshotOnRunFailure: false
   })
+*/
   
 
 

@@ -4,7 +4,10 @@
   "description": "Cypress.io: Best practices of automation in Cypress",
   "main": "index.js",
   "scripts": {
-    "cy:run": "npx cypress run --config video=false --env allure=true",
+    "cy:run": "npx cypress run --headless -c video=false --env allure=true",
+    "cy:run:specs": "npx cypress run --headless --spec cypress/integration/specs/example_after_spec.js,cypress/integration/specs/example_before_spec.js",
+    "cy:test": "npx cypress run --headless",
+    "cy:parallel": "node_modules/.bin/cypress-parallel -s cy:test -t 1 -d cypress/integration/specs",
     "allure:generate": "allure generate allure-results --clean",
     "allure:open": "allure open allure-report",
     "allure:clear": "rm -r allure-results/ allure-report || true",
@@ -19,5 +22,8 @@
     "cypress": "^6.6.0",
     "cypress-dark": "^1.7.14",
     "cypress-mochawesome-reporter": "^1.3.0"
+  },
+  "dependencies": {
+    "cypress-parallel": "^0.3.0"
   }
 }
